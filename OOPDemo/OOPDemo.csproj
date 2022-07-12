@@ -38,16 +38,22 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Object Oriented Programming\Encapsulation\ShoppingSystem.cs" />
+        <Compile Include="Object Oriented Programming\Encapsulation\Order.cs" />
+        <Compile Include="Object Oriented Programming\Extend\Father.cs" />
+        <Compile Include="Object Oriented Programming\Extend\Son.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Object Oriented Programming\Encapsulation\ReadMe.md" />
+      <Content Include="Object Oriented Programming\Extend\ReadMe.md" />
+      <Content Include="Object Oriented Programming\Polymorphism\ReadMe.md" />
       <Content Include="ReadMe.md" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Class Diagram" />
       <Folder Include="DI" />
-      <Folder Include="Object Oriented Programming" />
       <Folder Include="SOLID" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
