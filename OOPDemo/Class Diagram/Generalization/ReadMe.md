@@ -1,0 +1,1 @@
+﻿Please write a simple demo to show the generalization relation.

@@ -38,6 +38,10 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Class Diagram\Aggregation\AggregationDemo.cs" />
+        <Compile Include="Class Diagram\Association\AssociationDemo.cs" />
+        <Compile Include="Class Diagram\Composition\CompositionDemo.cs" />
+        <Compile Include="Class Diagram\Dependency\DependencyDemo.cs" />
         <Compile Include="Object Oriented Programming\Encapsulation\ShoppingSystem.cs" />
         <Compile Include="Object Oriented Programming\Encapsulation\Order.cs" />
         <Compile Include="Object Oriented Programming\Extend\Father.cs" />
@@ -46,13 +50,15 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Class Diagram\Generalization\ReadMe.md" />
+      <Content Include="Class Diagram\ReadMe.md" />
+      <Content Include="Class Diagram\Realization\ReadMe.md" />
       <Content Include="Object Oriented Programming\Encapsulation\ReadMe.md" />
       <Content Include="Object Oriented Programming\Extend\ReadMe.md" />
       <Content Include="Object Oriented Programming\Polymorphism\ReadMe.md" />
       <Content Include="ReadMe.md" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Class Diagram" />
       <Folder Include="DI" />
       <Folder Include="SOLID" />
     </ItemGroup>
