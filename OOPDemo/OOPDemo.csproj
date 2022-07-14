@@ -42,6 +42,11 @@
         <Compile Include="Class Diagram\Association\AssociationDemo.cs" />
         <Compile Include="Class Diagram\Composition\CompositionDemo.cs" />
         <Compile Include="Class Diagram\Dependency\DependencyDemo.cs" />
+        <Compile Include="DI\IoC\Controller.cs" />
+        <Compile Include="DI\IoC\Factory.cs" />
+        <Compile Include="DI\IoC\Service.cs" />
+        <Compile Include="DI\RegularWithoutDI\Controller.cs" />
+        <Compile Include="DI\RegularWithoutDI\Service.cs" />
         <Compile Include="Object Oriented Programming\Encapsulation\ShoppingSystem.cs" />
         <Compile Include="Object Oriented Programming\Encapsulation\Order.cs" />
         <Compile Include="Object Oriented Programming\Extend\Father.cs" />
@@ -59,7 +64,6 @@
       <Content Include="ReadMe.md" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="DI" />
       <Folder Include="SOLID" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
